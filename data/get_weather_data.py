@@ -47,3 +47,7 @@ print(data.index.max())
 all_dates = data.index.to_series().asfreq("D")
 print("\nMissing dates:")
 print(all_dates.isna().sum())
+
+#Save raw weather data
+data.to_csv("data/mumbai_weather_raw.csv")
+print("\nRaw weather data saved successfully.")

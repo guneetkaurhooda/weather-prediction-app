@@ -2,3 +2,5 @@ venv/
 __pycache__/
 *.pyc
 .env
+data/mumbai_weather_raw.csv
+data/mumbai_weather_processed.csv
